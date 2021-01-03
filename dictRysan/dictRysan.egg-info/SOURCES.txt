@@ -1,4 +1,5 @@
 setup.py
+dictRysan/__init__.py
 dictRysan.egg-info/PKG-INFO
 dictRysan.egg-info/SOURCES.txt
 dictRysan.egg-info/dependency_links.txt
