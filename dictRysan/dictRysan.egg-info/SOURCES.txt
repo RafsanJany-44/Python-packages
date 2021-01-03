@@ -1,0 +1,5 @@
+setup.py
+dictRysan.egg-info/PKG-INFO
+dictRysan.egg-info/SOURCES.txt
+dictRysan.egg-info/dependency_links.txt
+dictRysan.egg-info/top_level.txt
