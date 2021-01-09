@@ -1,4 +1,4 @@
-﻿dictRysan Version 1.1.0
+﻿dictRysan Version 1.2.3
 ===================
 **What dose this package do:**
 
