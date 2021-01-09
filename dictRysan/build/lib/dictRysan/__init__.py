@@ -34,3 +34,47 @@ def from_json(file_name_or_path):
   with open(file_name_or_path) as infile:
     return json.load(infile)
 
+
+
+def show_def():
+
+  d={
+      1:{"FUNCTIONS":"key_search(dict,value)","RETURN":"Key"},
+      2:{"FUNCTIONS":"value_sort(dict,type=False)","RETURN":"Dictionary"},
+      3:{"FUNCTIONS":"key_sort(dict,type=False)","RETURN":"Dictionary"},
+      4:{"FUNCTIONS":"to_json(dict,file_name_or_path)","RETURN":"Null"},
+      5:{"FUNCTIONS":"from_json(file_name_or_path)","RETURN":None},
+      6:{"FUNCTIONS":"show_def(None)","RETURN":None},
+      7:{"FUNCTIONS":"show_type(any_data)","RETURN":"String"},
+      8:{"FUNCTIONS":"values_type_count(dictionary)","RETURN":"Dictionary"}
+  }
+  for i in d:
+    print(i,": ",d[i],end="\n")
+    print()
+
+
+def show_type(s):
+  return str(type(s))[8:-2]
+
+
+def values_type_count(d):
+  dict={
+      'str':0,
+      'int':0,
+      'float':0,
+      'complex':0,
+      'list':0,
+      'tuple':0,
+      'range':0,
+      'range':0,
+      'dict':0,
+      'set':0,
+      'frozenset':0,
+      'bool':0,
+      'bytes':0,
+      'bytearray':0,
+      'memoryview':0
+  }
+  for i in d:
+     dict[show_type(d[i])]=dict[show_type(d[i])]+1
+  return dict
