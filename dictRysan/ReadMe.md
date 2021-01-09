@@ -9,6 +9,9 @@ This package helps programmers to do some dictionary operations like:
 > - Searching key through value.
 > - Converting a dictionary to .json .
 > - Converting a .json to dictionary.
+> - Show the all existing functions.
+> - Show any data type.
+> - Show how many types of values in the dictionary.
 
 ----------
 
@@ -23,6 +26,10 @@ Functions
 > - **key_sort(dict,type=False)**
 > -  **to_json(dict,file_name_or_path)**
 > -  **from_json(file_name_or_path)**
+> -  **show_def(None)**
+> -  **show_type(any_data)**
+> -  **values_type_count(dictionary)**
+
 
 
 
@@ -35,37 +42,53 @@ Description
 >- **Motivation:** Searching a key trough its value.
 >- **Peramitters:** Take Tow permitter. a dictionary and a value.
 >- **Returns:** Returns the corresponding key for the given value.
-
+--------
 **value_sort(dict,type=False)**
 >- **Motivation:** sorting a dictionary according to its values.
 >- **Peramitters:** Take Tow permitter. a dictionary and searching order(True or False).
 >- **Returns:** Sorted dictionary..
-
+-------
 **key_sort(dict,type=False)**
 >- **Motivation:** sorting a dictionary according to its keys.
 >- **Peramitters:** Take Tow permitter. a dictionary and searching order(True or False).
 >- **Returns:** Sorted dictionary..
-
+------
 
 **to_json(dict,file_name_or_path)**
 >- **Motivation:** converting dictionary into a .json file
 >- **Peramitters:** Take Tow permitter. a dictionary and the file name with **.json extension** or the path to save.
 >- **Returns:**  No return.
-You can rename the current document by clicking the document title in the navigation bar.
-
+------
 **from_json(file_name_or_path)**
 >- **Motivation:** converting a .json file into a .dictionary
 >- **Peramitters:** Take inly the file name with **.json extension** or the path.
 >- **Returns:**  a dictionary.
-You can rename the current document by clicking the document title in the navigation bar.
+-----
+
+
+
+**show_def(None)**
+>- **Motivation:** showing all functions.
+>- **Peramitters:** None
+>- **Returns:** None
+-----
+**show_type(any_data)**
+>- **Motivation:** showing the type.
+>- **Peramitters:** any value (single)
+>- **Returns:**  String.
+----
+**values_type_count(dictionary)**
+>- **Motivation:** Showing the types of all values inside a dictionary.
+>- **Peramitters:** A dictionary
+>- **Returns:**  A dictionary.
 
 Author
 ======
 
-Name : Rafsan Jany
-Current Profession: Undergraduate student
-University: Islamic University Of Technology
-Department: Computer Science and Engineering.
-<I>Email: rafsanjany1213@gmail.com
-<I>Email: rafsanjany@iut-dhaka.edu
-<I>Web: www.rafsanjany.com
+Name : Rafsan Jany<br>
+Current Profession: Undergraduate student<br>
+University: Islamic University Of Technology<br>
+Department: Computer Science and Engineering.<br>
+<I>Email: rafsanjany1213@gmail.com<br>
+<I>Email: rafsanjany@iut-dhaka.edu<br>
+<I>Web: www.rafsanjany.com<br>
