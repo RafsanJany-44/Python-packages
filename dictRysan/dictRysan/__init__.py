@@ -77,6 +77,7 @@ def values_type_count(d):
       'bytearray':0,
       'memoryview':0
   }
+  
   for i in d:
      dict[show_type(d[i])]=dict[show_type(d[i])]+1
   return dict

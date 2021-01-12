@@ -1,6 +1,6 @@
-﻿dictRysan Version 1.3.4
+﻿dictRysan Version 1.3.5
 ===================
-<font color="#00093C">By Rafsan Jany</font><br>
+By Rafsan Jany
 **What dose this package do:**
 
 This package helps programmers to do some dictionary operations like:
@@ -28,13 +28,13 @@ Functions
 > - **key_search(dict,value)**
 > - **value_sort(dict,type=False)**
 > - **key_sort(dict,type=False)**
-> -  **to_json(dict,file_name_or_path)**
-> -  **from_json(file_name_or_path)**
-> -  **show_def(None)**
-> -  **show_type(any_data)**
-> -  **values_type_count(dictionary)**
-> -  **get_component(dict,index)**
-> -  **get_index(dict,key)**
+> - **to_json(dict,file_name_or_path)**
+> - **from_json(file_name_or_path)**
+> - **show_def(None)**
+> - **show_type(any_data)**
+> - **values_type_count(dictionary)**
+> - **get_component(dict,index)**
+> - **get_index(dict,key)**
 
 
 
