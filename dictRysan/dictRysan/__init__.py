@@ -46,7 +46,9 @@ def show_def():
       5:{"FUNCTIONS":"from_json(file_name_or_path)","RETURN":None},
       6:{"FUNCTIONS":"show_def(None)","RETURN":None},
       7:{"FUNCTIONS":"show_type(any_data)","RETURN":"String"},
-      8:{"FUNCTIONS":"values_type_count(dictionary)","RETURN":"Dictionary"}
+      8:{"FUNCTIONS":"values_type_count(dictionary))","RETURN":"Dictionary"},
+      9:{"FUNCTIONS":"get_component(dict,index)","RETURN":"Dictionary"},
+     10:{"FUNCTIONS":"get_index(dict,key))","RETURN":"Anything"}
   }
   for i in d:
     print(i,": ",d[i],end="\n")
@@ -78,3 +80,9 @@ def values_type_count(d):
   for i in d:
      dict[show_type(d[i])]=dict[show_type(d[i])]+1
   return dict
+
+def get_component(dict,index):
+  return {list(dict.keys())[index]:dict[list(d.keys())[index]]}
+
+def get_index(dict,key):
+  return list(dict.keys()).index(key)

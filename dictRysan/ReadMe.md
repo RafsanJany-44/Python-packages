@@ -1,5 +1,6 @@
-﻿dictRysan Version 1.2.3
+﻿dictRysan Version 1.3.4
 ===================
+<font color="#00093C">By Rafsan Jany</font><br>
 **What dose this package do:**
 
 This package helps programmers to do some dictionary operations like:
@@ -10,8 +11,11 @@ This package helps programmers to do some dictionary operations like:
 > - Converting a dictionary to .json .
 > - Converting a .json to dictionary.
 > - Show the all existing functions.
-> - Show any data type.
+> - Get any data type.
 > - Show how many types of values in the dictionary.
+> - Get the a component trhough index.
+> - Get index trhough key.
+
 
 ----------
 
@@ -29,6 +33,8 @@ Functions
 > -  **show_def(None)**
 > -  **show_type(any_data)**
 > -  **values_type_count(dictionary)**
+> -  **get_component(dict,index)**
+> -  **get_index(dict,key)**
 
 
 
@@ -73,7 +79,7 @@ Description
 >- **Returns:** None
 -----
 **show_type(any_data)**
->- **Motivation:** showing the type.
+>- **Motivation:** Get the data type.
 >- **Peramitters:** any value (single)
 >- **Returns:**  String.
 ----
@@ -82,7 +88,20 @@ Description
 >- **Peramitters:** A dictionary
 >- **Returns:**  A dictionary.
 
-Author
+----
+**get_component(dict,index)**
+>- **Motivation:** Get a component trhough index.
+>- **Peramitters:** A dictionary, a index.
+>- **Returns:**  A dictionary.
+
+
+----
+**get_index(dict,key)**
+>- **Motivation:** Get index trhough key.
+>- **Peramitters:** A dictionary, a key.
+>- **Returns:**  A dictionary.
+
+Developer
 ======
 
 Name : Rafsan Jany<br>
