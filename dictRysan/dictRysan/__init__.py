@@ -87,3 +87,13 @@ def get_component(dict,index):
 
 def get_index(dict,key):
   return list(dict.keys()).index(key)
+
+def nested_2L_value_sort(dict,key,type=False):
+  d={}
+  for i in dict:
+    d[i]=dict[i][key]
+  d=value_sort(d,type)
+  d2={}
+  for i in d:
+    d2[i]=dict[i]
+  return d2

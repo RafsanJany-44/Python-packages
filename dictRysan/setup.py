@@ -8,7 +8,7 @@ setuptools.setup(
     name="dictRysan",
  
     #version of the module
-    version="1.3.5",
+    version="1.4.6",
  
     #Name of Author
     author="Rafsan Jany",

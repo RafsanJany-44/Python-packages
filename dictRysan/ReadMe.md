@@ -1,6 +1,6 @@
-﻿dictRysan Version 1.3.5
+﻿dictRysan Version 1.4.6
 ===================
-By Rafsan Jany
+
 **What dose this package do:**
 
 This package helps programmers to do some dictionary operations like:
@@ -15,6 +15,7 @@ This package helps programmers to do some dictionary operations like:
 > - Show how many types of values in the dictionary.
 > - Get the a component trhough index.
 > - Get index trhough key.
+> - Sort 2 level nested dictionary by value of sub Dictionary.
 
 
 ----------
@@ -35,6 +36,8 @@ Functions
 > - **values_type_count(dictionary)**
 > - **get_component(dict,index)**
 > - **get_index(dict,key)**
+> - **nested_2L_value_sort(dict,key,type=False)**
+
 
 
 
@@ -99,6 +102,12 @@ Description
 **get_index(dict,key)**
 >- **Motivation:** Get index trhough key.
 >- **Peramitters:** A dictionary, a key.
+>- **Returns:**  A dictionary.
+
+----
+**nested_2L_value_sort(dict,key,type=False)**
+>- **Motivation:** Sort the dictionary by the value of its sub dictionay.
+>- **Peramitters:** A dictionary, a key of sub dictionary.
 >- **Returns:**  A dictionary.
 
 Developer
